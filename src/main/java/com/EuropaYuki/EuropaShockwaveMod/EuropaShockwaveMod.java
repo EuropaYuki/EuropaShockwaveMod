@@ -3,6 +3,7 @@ package com.EuropaYuki.EuropaShockwaveMod;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -42,9 +43,10 @@ public class EuropaShockwaveMod
     // Creates a new Block with the id "examplemod:example_block", combining the namespace and path
 
     // Creates a creative tab with the id "examplemod:example_tab" for the example item, that is placed after the combat tab
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> EUROPA_SHOCKWAVE_TABS = CREATIVE_MODE_TABS.register("europa_shockwave_tab", () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> EUROPA_SHOCKWAVE_ITEM.get().getDefaultInstance())
+            .title(Component.translatable("itemGroup.europa_shockwave_tab"))
             .displayItems((parameters, output) -> {
                 output.accept(EUROPA_SHOCKWAVE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
