@@ -1,0 +1,30 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+#build
+#.gradle
+
+# other
+eclipse
+#run
+
+# Files from Forge MDK
+changelog.txt
+README.md
+README.txt
+CREDITS.txt
+src/main/java/com/EuropaYuki/EuropaShockwaveMod/Config.java
+src/main/resources/pack.mcmeta
