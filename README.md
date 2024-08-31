@@ -30,9 +30,15 @@ If you would like to contribute to this project, please follow these steps:
 ## License
 This project is licensed under the LGPL-3.0 License. See the LICENSE file for more details.
 
+## Build Instructions
+1. Open IntelliJ IDEA and navigate to the location of this project. Open the project.
+
+2. On the right side of IntelliJ IDEA, find the "Gradle" tab. Expand `EuropaShockwaveMod -> Tasks -> build` and double-click on `build` to build the project.
+
+3. The built files are in the `EuropaShockwaveMod/build/libs` directory.
+   Place these files into your Minecraft `mods` folder and enjoy the mod!
+
 ## Known Issues
 There are no known bugs at the moment, but if you find any, we apologize. Please use it at your own risk.
-
-
 
 
