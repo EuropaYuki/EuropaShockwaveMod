@@ -14,17 +14,12 @@ out
 .idea
 
 # gradle
-#build
-#.gradle
+build
+.gradle
 
 # other
 eclipse
-#run
+run
 
 # Files from Forge MDK
-changelog.txt
-README.md
-README.txt
-CREDITS.txt
-src/main/java/com/EuropaYuki/EuropaShockwaveMod/Config.java
-src/main/resources/pack.mcmeta
+forge*changelog.txt
