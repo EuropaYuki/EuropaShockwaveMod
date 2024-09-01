@@ -29,8 +29,9 @@ public class EuropaShockwaveItem extends Item {
                 if (entity instanceof LivingEntity && entity != player) {
                     LivingEntity target = (LivingEntity) entity;
                     target.hurt(entity.damageSources().playerAttack(player), 10.0F);
-                    target.push(1.0, 7.0, 1.0);
+                    target.push(1.0, 4.0, 1.0);
                     world.playSound(null, target.getX(), target.getY(), target.getZ(), SoundEvents.GENERIC_EXPLODE, SoundSource.PLAYERS, 1.0F, 1.0F);
+                    // Only send particles on the server side.
                     if (world instanceof ServerLevel) {
                         ((ServerLevel) world).sendParticles(ParticleTypes.EXPLOSION, target.getX(), target.getY(), target.getZ(), 10, 0.5, 0.5, 0.5, 0.1);
                     }
