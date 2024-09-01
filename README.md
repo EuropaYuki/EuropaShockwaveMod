@@ -5,7 +5,7 @@ EuropaShockwaveMod is a Minecraft Mod that features a powerful item capable of u
 ## Features
 - Adds a new item called "EuropaShockwave".
 - Creates a shockwave that deals damage and knocks back all entities within a 20-block radius.
-- Includes explosive particle and sound effects to enhance the experience.
+- Includes explosion particle and sound effects to enhance the experience.
 
 ## Installation
 
