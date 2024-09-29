@@ -17,9 +17,9 @@ To install EuropaShockwaveMod, follow these steps:
 
 ## Usage
 To use the EuropaShockwaveItem, simply right-click while holding the item. All entities within a 20-block radius will take damage and be knocked back. Be aware that the shockwave affects both allies and enemies!
+https://youtu.be/sqnfjbrFcms
 
 ## Contributing
-
 If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
